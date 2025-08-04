@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -97,6 +98,8 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+
+        <Footer />
       </footer>
     </div>
   );
