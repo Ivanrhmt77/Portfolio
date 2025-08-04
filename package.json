@@ -8,7 +8,7 @@
     "prebuild": "npm run update:deploy-time",
     "start": "next start",
     "lint": "next lint",
-    "update:deploy-time": "ts-node scripts/updateDeployTime.ts"
+    "update:deploy-time": "ts-node scripts/updateDeployTime.js"
   },
   "dependencies": {
     "next": "15.4.5",
