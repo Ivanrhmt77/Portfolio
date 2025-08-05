@@ -23,12 +23,16 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="text-sm text-gray-400 text-center py-6">
-      {deployTime ? (
-        <p>Updated: {deployTime}</p>
-      ) : (
-        <p>Memuat waktu deploy...</p>
-      )}
+    <footer className="py-8">
+      <div className="max-w-[1160px] mx-auto px-4">
+        <div>
+          {deployTime ? (
+            <p className="caption">Updated: {deployTime}</p>
+          ) : (
+            <p className="caption">Memuat waktu deploy...</p>
+          )}
+        </div>
+      </div>
     </footer>
   );
 }

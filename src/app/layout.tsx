@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -31,7 +33,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={jakarta.variable}>{children}</body>
+      <body className={jakarta.variable}>
+        <div className="font-sans h-screen w-full flex flex-col bg-background">
+          <Header />
+
+          <main className="flex-1 py-8">
+            <div className="max-w-[1160px] mx-auto h-full px-4">{children}</div>
+          </main>
+
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
