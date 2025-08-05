@@ -5,6 +5,12 @@ export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+        <h1 className="text-danger">INI XL</h1>
+        <h2>INI LG</h2>
+        <h3>INI MD</h3>
+        <h4>INI SM</h4>
+        <p>INI BASE</p>
+        <p className="caption">INI CAPTION</p>
         <Image
           className="dark:invert"
           src="/next.svg"
