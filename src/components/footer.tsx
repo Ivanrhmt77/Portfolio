@@ -35,7 +35,7 @@ export default function Footer() {
           {deployTime ? (
             <p className="caption whitespace-nowrap">Updated: {deployTime}</p>
           ) : (
-            <p className="caption whitespace-nowrap">Memuat waktu deploy...</p>
+            <p className="caption whitespace-nowrap">Loading deploy time...</p>
           )}
         </div>
 
