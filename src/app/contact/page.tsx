@@ -1,3 +1,9 @@
+export const generateMetadata = () => {
+  return {
+    title: "Contact Ivan",
+  };
+};
+
 export default function Contact() {
   return (
     <div className="flex flex-col gap-2 items-center justify-center h-full">

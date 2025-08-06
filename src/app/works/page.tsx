@@ -1,3 +1,9 @@
+export const generateMetadata = () => {
+  return {
+    title: "Ivan's Works",
+  };
+};
+
 export default function Works() {
   return (
     <div className="flex flex-col gap-2 items-center justify-center h-full">
