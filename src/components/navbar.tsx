@@ -25,7 +25,7 @@ export default function Navbar() {
 
   const iconGlowStyle = (active: boolean) =>
     active
-      ? { filter: "drop-shadow(0px 0px 5px var(--tw-color-accent, #22d3ee))" }
+      ? { filter: "drop-shadow(0 0 8px rgba(34, 211, 238, 0.6))" } // alpha 0.4 = lebih pudar
       : {};
 
   return (

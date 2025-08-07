@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "About Ivan",
   description:
     "Learn more about Ivan Rahmat's background, interests, and skills.",
-  icons: "/logo.svg",
+  icons: "/favicon.svg",
 };
 
 export default function RootLayout({
