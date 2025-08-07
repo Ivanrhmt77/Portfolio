@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -6,7 +7,13 @@ export default function Header() {
       <div className="max-w-[1160px] mx-auto flex justify-between px-4">
         <div className="h-16 flex gap-4 items-center">
           <div className="w-14 h-14 bg-accent rounded-xl border border-border flex items-center justify-center">
-            <img src="/icons/logo.svg" alt="Logo" />
+            <Image
+              src="/icons/logo.svg"
+              alt="Logo"
+              width={40}
+              height={27}
+              priority
+            />
           </div>
           <div className="w-fit h-full flex flex-col justify-between">
             <h5>Ivan Rahmat Prakasa</h5>
