@@ -6,12 +6,12 @@ export default function Header() {
     <header className="py-8">
       <div className="max-w-[1160px] mx-auto flex justify-between px-4">
         <div className="h-16 flex gap-4 items-center">
-          <div className="w-14 h-14 bg-accent rounded-xl border border-border flex items-center justify-center">
+          <div className="w-14 h-14 bg-accent rounded-xl border border-border flex items-center justify-center relative">
             <Image
               src="/icons/logo.svg"
               alt="Logo"
-              width={40}
-              height={27}
+              fill
+              className="object-contain px-2"
               priority
             />
           </div>
