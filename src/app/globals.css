@@ -20,6 +20,7 @@
   --color-border: #30363d;
   --color-danger: #ef4444;
   --color-success: #10b981;
+  --color-warning: #facc15;
 }
 
 @media (prefers-color-scheme: dark) {
