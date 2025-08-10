@@ -14,7 +14,7 @@ export default function WorkStatus({ variant }: WorkStatusProps) {
   }
 
   if (variant === "unavailable") {
-    label = "Not Available Yet";
+    label = "Unavailable for Work";
     color = "bg-foreground-surface";
     textColor = "text-foreground-surface";
   }
