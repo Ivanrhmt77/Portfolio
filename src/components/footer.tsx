@@ -47,34 +47,34 @@ export default function Footer() {
 
         <hr className="border border-border w-full" />
 
-        <div className="text-foreground flex gap-1">
+        <div className="text-foreground-surface flex gap-1">
           <a
             href="https://www.linkedin.com/in/ivan-rahmat-prakasa-450737308/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-2xl hover:text-foreground-surface" />
+            <FaLinkedin className="text-2xl hover:text-foreground" />
           </a>
           <a
             href="https://github.com/Ivanrhmt77"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithubSquare className="text-2xl hover:text-foreground-surface" />
+            <FaGithubSquare className="text-2xl hover:text-foreground" />
           </a>
           <a
             href="https://www.facebook.com/ivan.rahmatprakasa.7"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebookSquare className="text-2xl hover:text-foreground-surface" />
+            <FaFacebookSquare className="text-2xl hover:text-foreground" />
           </a>
           <a
             href="https://www.instagram.com/ivanrhmt_/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagramSquare className="text-2xl hover:text-foreground-surface" />
+            <FaInstagramSquare className="text-2xl hover:text-foreground" />
           </a>
         </div>
       </div>
