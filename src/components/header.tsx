@@ -19,7 +19,7 @@ export default function Header() {
             <h5>Ivan Rahmat Prakasa</h5>
             <div className="h-px w-full bg-border" />
             <p className="caption text-foreground-surface">
-              Computer Science Student
+              Informatics Engineering Student
             </p>
           </div>
         </div>
