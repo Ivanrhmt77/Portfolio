@@ -2,23 +2,28 @@
 A personal portfolio website showcasing my journey, works, and skills in software development.
 Built with Next.js, Tailwind CSS, and TypeScript, and deployed on Vercel for fast, reliable performance.
 
-## 🌐 Live Demo  
+### 🌐 Live Demo  
 https://ivanrhmt.vercel.app
 
-## 📖 Features  
+### 📖 Features  
 - About Page – Learn more about me and my background.
 - Journey Page – My professional and learning journey in the tech world.
 - Works Page – Showcasing my projects and contributions.
 - Contact Page – Get in touch with me easily.
 
-## 🛠 Tech Stack  
+### 🛠 Tech Stack  
 - [Next.js](https://nextjs.org/) – React framework for building fast, scalable web apps.
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development.
 - [TypeScript](https://www.typescriptlang.org/) – Typed JavaScript for safer, cleaner code.
 - [Vercel](https://vercel.com/) – Hosting and deployment platform for modern web apps.
 
-## 📦 Installation & Setup
+### ⚙️ Getting Started
 
+Follow these instructions to get a local copy up and running for development and testing purposes.
+Prerequisites
+
+Make sure you have the following installed on your machine:
+- Node.js (v18 or later is recommended)
 ### 1. Clone the repository  
 ```bash
 git clone https://github.com/Ivanrhmt77/Portfolio.git
