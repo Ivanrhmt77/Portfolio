@@ -50,3 +50,11 @@ The website will be running at http://localhost:3000.
 npm run build
 npm run start
 ```
+
+### 🤝 Contributing
+Contributions, issues, and feature requests are welcome! While this is a personal portfolio, I'm open to suggestions for improvement. Feel free to check the issues page.
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
